@@ -1,0 +1,9 @@
+fly.toml
+Dockerfile
+.dockerignore
+client/node_modules/
+client/build/
+node_modules
+.git
+.env
+build
