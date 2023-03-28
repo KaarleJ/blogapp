@@ -8,7 +8,7 @@
     "dev": "cross-env NODE_ENV=development nodemon index.js",
     "test": "cross-env NODE_ENV=test jest --verbose --runInBand --forceExit",
     "start:test": "cross-env NODE_ENV=test nodemon index.js",
-    "lint": "eslint .",
+    "lint": "eslint \"./**/*.{js,jsx}\"",
     "lint:fix": "eslint . --fix",
     "build:ui": "rm -rf build && cd ./client && npm run build && cp -r build ../",
     "deploy": "flyctl deploy",
