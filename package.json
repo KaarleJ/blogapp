@@ -13,7 +13,8 @@
     "build:ui": "rm -rf build && cd ./client && npm run build && cp -r build ../",
     "deploy": "flyctl deploy",
     "deploy:full": "npm run build:ui && npm run deploy",
-    "logs:prod": "flyctl logs"
+    "logs:prod": "flyctl logs",
+    "test:e2e": "cd ./client/ && npx cypress run"
   },
   "author": "Kaarle Järvinen",
   "license": "ISC",
