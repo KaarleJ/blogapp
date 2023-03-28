@@ -1,7 +1,6 @@
 fly.toml
 Dockerfile
 .dockerignore
-client/
 node_modules
 .git
 .env
