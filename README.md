@@ -1,2 +1,3 @@
-# Osa 4
-Tämän hakemiston ohjelma vastaa osaa 4.23
+# Blogapp CI/CD
+
+This is one of my applications that was given a CI/CD pipeline as part of fullstack part 11.
